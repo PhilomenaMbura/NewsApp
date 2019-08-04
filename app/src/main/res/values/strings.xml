@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_name">Sample Name</string>
+    <string name="news_description">Sample Description</string>
+    <string name="news_date">Sample Date</string>
+    <string name="no_data">Make sure there is internet connection in order to get updated news</string>
+</resources>

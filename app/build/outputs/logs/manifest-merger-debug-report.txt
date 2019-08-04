@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:6:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.example.android.newsapp.MainActivity
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:17:27-74
+uses-permission#android.permission.INTERNET
+ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:21:22-64
+uses-sdk
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:20:5-44
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
