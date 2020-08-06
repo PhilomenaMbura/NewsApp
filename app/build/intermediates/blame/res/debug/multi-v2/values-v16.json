@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/philomena/Downloads/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/philomenambura/StudioProjects/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/res/values-v16/values-v16.xml",
+                    "source": "/home/philomenambura/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/885d05471c2cbb0784c0bf431bbcbda1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

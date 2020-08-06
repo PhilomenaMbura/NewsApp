@@ -1,107 +1,394 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.2.aar/a8da0b908e57a95fdb7669f896d05d01/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/885d05471c2cbb0784c0bf431bbcbda1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/45c1447080844e09b5a2f4a23ceab6a3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f0e904b46b44572b44b9ee7edc49f4db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.2.aar/6e377bb59f8b08c962db423185f1419a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.2.aar/5f4c3af8728d79591ef601ebc1aed151/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/1e0e7c8d353f1a455ca86740cf29ca6c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6e99ad60cd38213761409066a1acb24/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/f4b5c99e99ca38499598ff1c38e90855/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/ee5b6109df2c47ff0723bc8d98283a42/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/d5f65b3f243aeb327ffa268349c6d220/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/472104b6eef243a5a163ccc6dfc4155d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4fd54b2894b3d0bc5e1cb6f322426c05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/0ecc42962bfb161a46906d1a3dbf3a32/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/b9ef43693514537ec66f2863f078123c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/4160cbf5b6c0a4562419c6615d22ed06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b88306d89f69419f89a94f00d67e6d1d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9058973a311ba06c4852fff00779ee10/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2b4786b108e992bf4b536addf8ef1b36/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ad7cc26698d45034607ed51acb58a9a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/ff5133e9a6ce0acdbd7598fb15dd3123/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1e2a63b1bb21d30014a18a8b3f3d5346/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/5567b7bb4c898100d27cba6ba55d3059/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0138e7ed21fe6742d90ab47fb449dbe7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/695a08c584cbe492031e7e56a7e72e67/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/134cbbcfc81fdc24c8525f8d0c4435a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/99c917e65c5136e8eb6c828b57893cba/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/62fa6c30384789c891a0e83f62b7bce8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/385f32a240068659daa24ddd250146d2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b2840f383d57549407b623ee33277e97/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/aba60726124eb878205c624d2535338a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/18584298dd638d7ac50a02e4d3f20cb8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/dba701c20724331abf7532922e1d29e3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/353181873c22888a261e3fded95de0aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/fff7851fc38957f478889e09f5a6d34a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9ea6e9768f7741780b4ff2f58912c62e/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:3:5-42
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:6:5-20:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:9:5-20
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.2.aar/a8da0b908e57a95fdb7669f896d05d01/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.2.aar/a8da0b908e57a95fdb7669f896d05d01/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/45c1447080844e09b5a2f4a23ceab6a3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/45c1447080844e09b5a2f4a23ceab6a3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.2.aar/6e377bb59f8b08c962db423185f1419a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.2.aar/6e377bb59f8b08c962db423185f1419a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.2.aar/5f4c3af8728d79591ef601ebc1aed151/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.2.aar/5f4c3af8728d79591ef601ebc1aed151/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/1e0e7c8d353f1a455ca86740cf29ca6c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/1e0e7c8d353f1a455ca86740cf29ca6c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6e99ad60cd38213761409066a1acb24/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6e99ad60cd38213761409066a1acb24/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/f4b5c99e99ca38499598ff1c38e90855/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/f4b5c99e99ca38499598ff1c38e90855/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/ee5b6109df2c47ff0723bc8d98283a42/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/ee5b6109df2c47ff0723bc8d98283a42/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/d5f65b3f243aeb327ffa268349c6d220/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/d5f65b3f243aeb327ffa268349c6d220/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/695a08c584cbe492031e7e56a7e72e67/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/695a08c584cbe492031e7e56a7e72e67/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.example.android.newsapp.MainActivity
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:27-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:21:5-67
+ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml:21:22-64
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:22-64
 uses-sdk
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/philomena/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df8bddb6e2ee2178978fbaa5f0f8428/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e34eec3c522bf5d4cacfadaefadfe2d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1ac31a3532c3b9f3b548373d3eed8633/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6f9979bb04900f58473bfc42294fa2b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/455c49e96f39c30d8c3bb8386edbd4e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/08741f494ada4f3679e272f79052766e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/philomena/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d51d2dde66ef1d3e390266cc7886ef75/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/687c473741b507b1d77f1185b5fe0d32/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/fee2a54bfc63d263d517944a3bdf9ca9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4eb746f74e519d910e7f23ad83716524/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/philomena/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c0a038fe3dcccfe581a1c1ed7a605c0/AndroidManifest.xml:20:5-44
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.2.aar/a8da0b908e57a95fdb7669f896d05d01/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.2.aar/a8da0b908e57a95fdb7669f896d05d01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/885d05471c2cbb0784c0bf431bbcbda1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/885d05471c2cbb0784c0bf431bbcbda1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/45c1447080844e09b5a2f4a23ceab6a3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/45c1447080844e09b5a2f4a23ceab6a3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f0e904b46b44572b44b9ee7edc49f4db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/f0e904b46b44572b44b9ee7edc49f4db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.2.aar/6e377bb59f8b08c962db423185f1419a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.2.aar/6e377bb59f8b08c962db423185f1419a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.2.aar/5f4c3af8728d79591ef601ebc1aed151/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.2.aar/5f4c3af8728d79591ef601ebc1aed151/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/1e0e7c8d353f1a455ca86740cf29ca6c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/1e0e7c8d353f1a455ca86740cf29ca6c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6e99ad60cd38213761409066a1acb24/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6e99ad60cd38213761409066a1acb24/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/f4b5c99e99ca38499598ff1c38e90855/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/f4b5c99e99ca38499598ff1c38e90855/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/ee5b6109df2c47ff0723bc8d98283a42/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/ee5b6109df2c47ff0723bc8d98283a42/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/d5f65b3f243aeb327ffa268349c6d220/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/d5f65b3f243aeb327ffa268349c6d220/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/472104b6eef243a5a163ccc6dfc4155d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/472104b6eef243a5a163ccc6dfc4155d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4fd54b2894b3d0bc5e1cb6f322426c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4fd54b2894b3d0bc5e1cb6f322426c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/0ecc42962bfb161a46906d1a3dbf3a32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/0ecc42962bfb161a46906d1a3dbf3a32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/b9ef43693514537ec66f2863f078123c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/b9ef43693514537ec66f2863f078123c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/4160cbf5b6c0a4562419c6615d22ed06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/4160cbf5b6c0a4562419c6615d22ed06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b88306d89f69419f89a94f00d67e6d1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b88306d89f69419f89a94f00d67e6d1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9058973a311ba06c4852fff00779ee10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9058973a311ba06c4852fff00779ee10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2b4786b108e992bf4b536addf8ef1b36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2b4786b108e992bf4b536addf8ef1b36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ad7cc26698d45034607ed51acb58a9a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ad7cc26698d45034607ed51acb58a9a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/ff5133e9a6ce0acdbd7598fb15dd3123/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/ff5133e9a6ce0acdbd7598fb15dd3123/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1e2a63b1bb21d30014a18a8b3f3d5346/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1e2a63b1bb21d30014a18a8b3f3d5346/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/5567b7bb4c898100d27cba6ba55d3059/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/5567b7bb4c898100d27cba6ba55d3059/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0138e7ed21fe6742d90ab47fb449dbe7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0138e7ed21fe6742d90ab47fb449dbe7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/58fd340bf421ca3512a4b681393ccde7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/695a08c584cbe492031e7e56a7e72e67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/695a08c584cbe492031e7e56a7e72e67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/134cbbcfc81fdc24c8525f8d0c4435a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/134cbbcfc81fdc24c8525f8d0c4435a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/99c917e65c5136e8eb6c828b57893cba/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/99c917e65c5136e8eb6c828b57893cba/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/62fa6c30384789c891a0e83f62b7bce8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/62fa6c30384789c891a0e83f62b7bce8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/385f32a240068659daa24ddd250146d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/385f32a240068659daa24ddd250146d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b2840f383d57549407b623ee33277e97/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b2840f383d57549407b623ee33277e97/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/aba60726124eb878205c624d2535338a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/aba60726124eb878205c624d2535338a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/18584298dd638d7ac50a02e4d3f20cb8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/18584298dd638d7ac50a02e4d3f20cb8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/dba701c20724331abf7532922e1d29e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/dba701c20724331abf7532922e1d29e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/353181873c22888a261e3fded95de0aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/353181873c22888a261e3fded95de0aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/fff7851fc38957f478889e09f5a6d34a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/fff7851fc38957f478889e09f5a6d34a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9ea6e9768f7741780b4ff2f58912c62e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9ea6e9768f7741780b4ff2f58912c62e/AndroidManifest.xml:20:5-44
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philomena/Downloads/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philomenambura/StudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.2.aar/ee6c26af58b3bc67ceff467af7a191e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.2.aar/92955e716218d727e315ec91a3f7cc4e/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.2.aar/3ccc94beec8c5cdae99f2fd17b17899e/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.2.aar/775bc963c1b399a984c65a4b34c8451a/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/firebase-iid-20.0.2.aar/a86bd84cb5b1ce80dfafa9d293ebe1eb/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/4b41e3a9d94182b97800c29df302a552/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/771697b3ea50056b977c1d6394ca2c6a/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/philomenambura/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/16316d3a308ef6bc3b14b2e1162b733c/AndroidManifest.xml:24:13-58

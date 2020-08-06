@@ -4,10 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.content.AsyncTaskLoader;
-import android.support.v4.content.Loader;
-import android.support.v7.app.AppCompatActivity;
+import androidx.loader.app.LoaderManager;
+import androidx.loader.content.AsyncTaskLoader;
+import androidx.loader.content.Loader;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -33,9 +33,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        error = findViewById(R.id.error);
-        error.setText(R.string.no_data);;
-
            getSupportLoaderManager().initLoader(0, null, (LoaderManager.LoaderCallbacks<String>) this).forceLoad();
     }
 
@@ -113,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         private String uriBuilder() {
             Uri.Builder builder = new Uri.Builder();
-            builder.scheme("http")
+            builder.scheme("https")
                     .authority("content.guardianapis.com")
                     .appendPath("search")
                     .appendQueryParameter("q", "debates")

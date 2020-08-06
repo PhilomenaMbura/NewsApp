@@ -4,12 +4,29 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true">
-     <TextView
-         android:id="@+id/error"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content" />
+
     <ListView
         android:id="@+id/lsnews"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@android:drawable/editbox_background"
+            android:id="@+id/tv_email_heading"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:text="Hint : Please make sure that you are connected to wifi or data in order to get updated news"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
 </LinearLayout>

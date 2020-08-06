@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/philomena/Downloads/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/philomenambura/StudioProjects/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/philomena/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/31fa84492e8ee676ad2d2a5a46c74b0c/res/values-v24/values-v24.xml",
+                    "source": "/home/philomenambura/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/885d05471c2cbb0784c0bf431bbcbda1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
