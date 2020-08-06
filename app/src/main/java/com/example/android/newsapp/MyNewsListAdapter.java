@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android.newsapp.R;
+import com.philomena.android.newsapp.R;
 
 import java.util.ArrayList;
 
