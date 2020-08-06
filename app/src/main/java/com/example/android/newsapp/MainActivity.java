@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Todays News");
            getSupportLoaderManager().initLoader(0, null, (LoaderManager.LoaderCallbacks<String>) this).forceLoad();
     }
 
