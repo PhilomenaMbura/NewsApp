@@ -1,4 +1,4 @@
-package com.example.android.newsapp;
+package com.philomena.android.newsapp;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

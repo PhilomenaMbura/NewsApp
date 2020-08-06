@@ -1,4 +1,4 @@
-package com.example.android.newsapp;
+package com.philomena.android.newsapp;
 
 import org.junit.Test;
 
