@@ -18,7 +18,7 @@
           "client_id": "1038378738053-erl1tm9cm4hsc3k1084dlb7tni01e3na.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.android.newsapp",
+            "package_name": "com.philomena.android.newsapp",
             "certificate_hash": "c37c83fd954012cfed224d1f92ca980d63f1c5b3"
           }
         },
